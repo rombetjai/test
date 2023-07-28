@@ -1,5 +1,13 @@
 body{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: deeppink;
+    margin: 0;
+}
+
+div.container {
+    background-color: yellowgreen;
+    padding: 1rem;
+}
+
+div.container .title{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
