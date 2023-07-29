@@ -28,3 +28,7 @@ div.container .subtitle{
     display: inline-block;
     margin-left: 0.7em;
 }
+
+div.container button{ 
+    margin-right: 5px;
+}
