@@ -5,9 +5,26 @@ body{
 div.container {
     background-color: yellowgreen;
     padding: 1rem;
+    display: flex;
+}
+
+div.container .brand{
+    display: block;
+}
+
+div.container .brand {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 div.container .title{
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0.3em;
+}
+
+div.container .subtitle{
+    color: rgb(236, 234, 234);
+    display: inline-block;
+    margin-left: 0.7em;
 }
