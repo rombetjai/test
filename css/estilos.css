@@ -1,20 +1,23 @@
+:root{
+    --bg-header: rgb(205, 50, 89);
+}
+
 body{
     margin: 0;
 }
 
 div.container {
-    background-color: rgb(205, 50, 89);
-    padding: 1rem;
+    background-color: var(--bg-header);
+    padding-top: 1rem;  
+    padding-inline: 1rem;;
     display: flex;
+    align-items: center;
 }
 
-div.container .brand{
-    display: block;
-}
-
-div.container .brand {
-    margin-top: auto;
-    margin-bottom: auto;
+.container-fluid{
+    background-color: var(--bg-header);
+    padding-inline: 1rem;
+    padding: 1rem;
 }
 
 div.container .title{
@@ -29,9 +32,19 @@ div.container .subtitle{
     margin-left: 0.7em;
 }
 
-div.container button{ 
+button{ 
     margin-right: 5px;
+    padding-inline: 10px;
+    background-color: rgb(196, 133, 255);
+    border-radius: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
 }
+
+button:hover{ 
+    background-color:rgb(227, 255, 133);
+}
+
 div.content {
     padding: 10px;
 }
